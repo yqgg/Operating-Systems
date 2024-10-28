@@ -1,0 +1,13 @@
+.txt file of my answers to questions on the lab handout
+
+1) Explain what happens when you run the program "threadSync.c"
+and how it differs from the thread programs you used in Lab4.
+    When I run the program threadSync.c its print statements
+    show that the program prints a message before it enters the 
+    critical region. Then, it sleeps for 1 second and then prints 
+    another message.
+
+    The threads in Lab4 demonstrate implicit sychronization through
+    the division of work among the threads. In contrast, the threads
+    in program threadSync.c demonstrate explicit synchronization using
+    semaphores.
